@@ -8,7 +8,7 @@ public class ex_1 {
         y=(int)x;
         x=z-(double)y;
 
-        System.out.println(x);
-        System.out.println(y);
+        System.out.println("Before Point"+x);
+        System.out.println("After Point"+y);
     }
 }
