@@ -20,7 +20,7 @@ public class ex_5_4 {
         {
             System.out.println("You have won Rs.5,000");
         }
-        else if((nu.charAt(0)==lo.charAt(0)||(nu.charAt(1)==lo.charAt(1)||nu.charAt(0)==lo.charAt(1)||nu.charAt(1)==lo.charAt(0))
+        else if((nu.charAt(0)==lo.charAt(0)||(nu.charAt(1)==lo.charAt(1)||nu.charAt(0)==lo.charAt(1)||nu.charAt(1)==lo.charAt(0))))
         {
             System.out.println("You have won Rs.3,000");
         }
