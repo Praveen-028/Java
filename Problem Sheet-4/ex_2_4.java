@@ -27,5 +27,6 @@ public class ex_2_4
 		System.out.println("The Positive count"+cp);
 		System.out.println("The Negative count"+cn);
 		System.out.println("The Zero count"+cc);
+		sc.close();
 	}
 }

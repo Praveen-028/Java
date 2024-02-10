@@ -10,5 +10,6 @@ public class ex_4_4
         System.out.print("Enter the Power :");
         p=sc.nextInt();
         System.out.print("The result is :"+ Math.pow(b, p));
+        sc.close();
     }    
 }

@@ -11,6 +11,7 @@ public class ex_8_4 {
         // Validate if the input is positive
         if (number <= 0) {
             System.out.println("Please enter a positive integer.");
+            scanner.close();
             return;
         }
 

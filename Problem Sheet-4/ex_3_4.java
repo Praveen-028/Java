@@ -21,6 +21,7 @@ public class ex_3_4
             }
             System.out.println();
         }
+        sc.close();
     }	        
 
 }

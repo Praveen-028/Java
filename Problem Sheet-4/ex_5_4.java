@@ -8,6 +8,7 @@ public class ex_5_4 {
         int num=sc.nextInt();
         if (num<0 || num>99) {
             System.out.print("Invalid input enter again");
+            sc.close();
             return;
         }
         String lo=String.format("%02d", Lottery);
@@ -28,6 +29,7 @@ public class ex_5_4 {
         {
             System.out.println("Sorry you don't win any lottery");
         }
+        sc.close();
     }
     
 }

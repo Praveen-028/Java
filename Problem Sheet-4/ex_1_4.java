@@ -29,5 +29,6 @@ public class ex_1_4
 			bill=200+30+25+temp;
 		}
 	System.out.println("The telephone bill generated is "+bill);
+	sc.close();
 	}
 }
