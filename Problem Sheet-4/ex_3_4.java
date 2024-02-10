@@ -1,11 +1,11 @@
+import java.util.*;
 public class ex_3_4 
 {
 	public static void main(String[] args)
 	{
-	        printNumberPyramid(4);
-    	}
-
-    public static void printNumberPyramid(int rows) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Number :");
+        int rows=sc.nextInt();
         for (int i = 1; i <= rows; i++) {
             // Print spaces
             for (int j = 1; j <= rows - i; j++) {
@@ -21,5 +21,6 @@ public class ex_3_4
             }
             System.out.println();
         }
-    }
+    }	        
+
 }
