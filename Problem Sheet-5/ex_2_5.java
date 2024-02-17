@@ -1,28 +1,30 @@
-import java.util.*;
 public class ex_2_5 {
     public static void main(String[] args) {
+        int[] primes = new int[50];
+        primes[0] = 2;
+        int count = 1;
+        int number = 3;
 
-        Scanner sc=new Scanner(System.in);
-        int inputNumber=sc.nextInt();
-        boolean isItPrime=true;
-        for (int j=0;j)
+        while (count < 50) {
+            boolean isPrime = true;
+            for (int i = 0; i < count; i++) {
+                if (primes[i] * 2 > number) {
+                    break;
+                }
+                if (number % primes[i] == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            if (isPrime) {
+                primes[count] = number;
+                count++;
+            }
+            number += 2; // Only check odd numbers
+        }
 
-        for (int i = 2; i<= inputNumber/2; i++)
-        {
-        if ((inputNumber % i) == 0)
-        {
-        isItPrime = false;
-        break;
+        for (int prime : primes) {
+            System.out.println(prime);
         }
-        }
-        if (isItPrime)
-        {
-            System.out.println(inputNumber+"is a prime number");
-        }
-        else
-        {
-            System.out.println("Not a prime number");
-        }
-        sc.close();
     }
 }
