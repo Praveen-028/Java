@@ -41,7 +41,6 @@ public class ex_5_5 {
             i--;
         }
 
-        // Print the magic square
         System.out.println("The Magic Square for N = " + N + " is:");
         for (i = 0; i < N; i++) {
             for (j = 0; j < N; j++) {

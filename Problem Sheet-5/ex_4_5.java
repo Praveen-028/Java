@@ -22,7 +22,6 @@ public class ex_4_5 {
             employees.add(new Employee(i, totalHours));
         }
 
-        // Sort employees by total hours in descending order
         Collections.sort(employees, new Comparator<Employee>() {
             @Override
             public int compare(Employee e1, Employee e2) {
@@ -30,7 +29,6 @@ public class ex_4_5 {
             }
         });
 
-        // Display employees and their total hours
         System.out.println("Employee ID\tTotal Hours");
         for (Employee employee : employees) {
             System.out.println(employee.id + "\t\t" + employee.totalHours);
