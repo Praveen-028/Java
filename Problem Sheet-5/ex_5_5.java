@@ -9,6 +9,7 @@ public class ex_5_5 {
 
         if (N % 2 == 0) {
             System.out.println("N must be an odd number.");
+            scanner.close();
             return;
         }
 

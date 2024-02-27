@@ -38,5 +38,6 @@ public class ex_2_6{
         fa = a2-a1;
 
         System.out.print("The area is :"+fa);
+        sc.close();
     }
 }
