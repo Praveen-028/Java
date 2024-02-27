@@ -20,11 +20,11 @@ public class ex_2_5 {
                 primes[count] = number;
                 count++;
             }
-            number += 2; // Only check odd numbers
+            number += 2;
         }
 
         for (int prime : primes) {
-            System.out.println(prime);
+            System.out.print(prime+",");
         }
     }
 }
