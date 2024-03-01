@@ -16,7 +16,7 @@ public class ex_4_6 {
         double res=calc.getInvoice();
 
         System.out.println("The total price is"+res);
-
+        sc.close();
     }
 }
 
