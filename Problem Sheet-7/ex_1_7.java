@@ -121,27 +121,6 @@ class Bank {
     }
 }
 public class ex_1_7 {
-    public static void main(String[] args) {
-        Bank bank = new Bank();
-
-        // Test accounts
-        SavingsAccount savings = new SavingsAccount(123, 2.5);
-        bank.openAccount(savings);
-        savings.deposit(1000);
-
-        CurrentAccount current = new CurrentAccount(456, 500);
-        bank.openAccount(current);
-        current.deposit(1000);
-        current.withdraw(1500);
-
-        // Update bank
-        bank.update();
-
-        // Pay dividend
-        bank.payDividend(50);
-
-        // Close accounts
-        bank.closeAccount(savings);
-        bank.closeAccount(current);
+    
 }
 }
