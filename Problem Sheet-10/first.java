@@ -5,7 +5,7 @@ public class first{
         Scanner sc=new Scanner(System.in);
         try{
             System.out.println("Enter the text file name");
-            String filename=sc.next();
+            String filename= "sample.txt";
             sc.nextLine();
             File obj=new File(filename);
             if (obj.createNewFile())
