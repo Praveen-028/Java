@@ -15,7 +15,7 @@ public class first{
             else{
                 System.out.println("the file is not created");
             }
-            FileOutputStream fout=new FileOutputStream(filename);
+            FileOutputStream fout=new FileOutputStream(filename,true);
             while(true)
             {
                 System.out.println("Enter the string :");
@@ -57,6 +57,7 @@ public class first{
             System.out.println("The shortest word is :"+ shortstr);
             System.out.println("The average lenght of the word is "+(sum/c));
             fout.close();
+            myread.close();
         }
         catch (Exception e)
         {

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Fifth {
+public class fifth {
     public static void main(String[] args) {
         if (args.length != 1) {
             System.out.println("Usage: java FileStatistics <fileName>");
